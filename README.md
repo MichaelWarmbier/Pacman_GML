@@ -10,4 +10,4 @@ This project is a continuation of a former project of mine, "Console Pacman". A 
 
 ### Current Design
 
-![image](https://cdn.discordapp.com/attachments/861664588810158140/870988777865232394/unknown.png)
+![image](gallery/unknown.png)
