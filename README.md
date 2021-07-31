@@ -8,6 +8,6 @@ This project is a continuation of a former project of mine, "Console Pacman". A 
 
 ## Gallery
 
-### Current Design
+### 7/31/21
 
 ![image](gallery/unknown.png)
