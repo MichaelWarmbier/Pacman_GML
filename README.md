@@ -5,7 +5,7 @@ Pacman programmed and designed from scratch in Game Maker using the Game Maker L
 
 ## Directories
 
-/assets - Relevent project files uploaded directly from project folder. Excludes the .yyp file, /datafiles and /options
+/assets - Relevant project files uploaded directly from project folder. Excludes the .yyp file, /datafiles and /options
 
 ## About
 
@@ -13,4 +13,4 @@ Project currently in development. The goal of this one is simply to gain experie
 
 Made with GML and Game Maker.
 
-Pacman and all of it's assets belong to and were created by Bandai Namco Entertainment. 
+Pacman and all of it's assets belong to and were created by Bandai Namco Entertainment.
