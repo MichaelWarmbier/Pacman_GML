@@ -2,11 +2,6 @@
 
 Pacman programmed and designed from scratch in Game Maker using the Game Maker Language.
 
-
-## Directories
-
-/assets - Relevant project files uploaded directly from project folder. Excludes the .yyp file, /datafiles and /options
-
 ## About
 
 Project currently in development. The goal of this one is simply to gain experience with Game Maker. This is also a continuation of my Console Pacman project.
