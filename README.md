@@ -4,8 +4,10 @@ Pacman programmed and designed from scratch in Game Maker using the Game Maker L
 
 ## About
 
-Project currently in development. The goal of this one is simply to gain experience with Game Maker. This is also a continuation of my Console Pacman project.
+This project is a continuation of a former project of mine, "Console Pacman". A recreation of the original game by Bandai Namco Entertainment that anyone can look at and mess around with themselves.
 
-Made with GML and Game Maker.
+## Gallery
 
-Pacman and all of it's assets belong to and were created by Bandai Namco Entertainment.
+### Current Design
+
+![current](https://cdn.discordapp.com/attachments/861664588810158140/870988777865232394/unknown.png)
