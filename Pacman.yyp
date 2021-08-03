@@ -1,8 +1,10 @@
 {
   "resources": [
     {"id":{"name":"pacmanSprite_UP","path":"sprites/pacmanSprite_UP/pacmanSprite_UP.yy",},"order":4,},
+    {"id":{"name":"teleportSprite","path":"sprites/teleportSprite/teleportSprite.yy",},"order":10,},
     {"id":{"name":"pacmanSprite_LEFT","path":"sprites/pacmanSprite_LEFT/pacmanSprite_LEFT.yy",},"order":2,},
     {"id":{"name":"pacman","path":"objects/pacman/pacman.yy",},"order":3,},
+    {"id":{"name":"extraLifeObject","path":"objects/extraLifeObject/extraLifeObject.yy",},"order":6,},
     {"id":{"name":"up_1Sprite","path":"sprites/up_1Sprite/up_1Sprite.yy",},"order":3,},
     {"id":{"name":"checkCollision","path":"scripts/checkCollision/checkCollision.yy",},"order":0,},
     {"id":{"name":"pacmanSprites","path":"sprites/pacmanSprites/pacmanSprites.yy",},"order":0,},
@@ -11,7 +13,12 @@
     {"id":{"name":"pacmanSprite_DOWN","path":"sprites/pacmanSprite_DOWN/pacmanSprite_DOWN.yy",},"order":1,},
     {"id":{"name":"smallPellet","path":"objects/smallPellet/smallPellet.yy",},"order":0,},
     {"id":{"name":"collisionSprite","path":"sprites/collisionSprite/collisionSprite.yy",},"order":0,},
+    {"id":{"name":"teleporterLeft","path":"objects/teleporterLeft/teleporterLeft.yy",},"order":4,},
+    {"id":{"name":"teleporterRight","path":"objects/teleporterRight/teleporterRight.yy",},"order":5,},
+    {"id":{"name":"To Do","path":"notes/To Do/To Do.yy",},"order":0,},
+    {"id":{"name":"emptySprite32x32","path":"sprites/emptySprite32x32/emptySprite32x32.yy",},"order":12,},
     {"id":{"name":"largePelletSprite","path":"sprites/largePelletSprite/largePelletSprite.yy",},"order":2,},
+    {"id":{"name":"extraLifeSprite","path":"sprites/extraLifeSprite/extraLifeSprite.yy",},"order":11,},
     {"id":{"name":"pacmanSprite_RIGHT","path":"sprites/pacmanSprite_RIGHT/pacmanSprite_RIGHT.yy",},"order":3,},
     {"id":{"name":"up_1","path":"objects/up_1/up_1.yy",},"order":2,},
     {"id":{"name":"collisionTiles","path":"tilesets/collisionTiles/collisionTiles.yy",},"order":1,},
