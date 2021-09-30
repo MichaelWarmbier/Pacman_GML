@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "pellets",
+    "path": "folders/Sprites/pellets.yy",
   },
   "resourceVersion": "1.0",
   "name": "smallPelletSprite",

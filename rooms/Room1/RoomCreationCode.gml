@@ -1,0 +1,1 @@
+window_set_size(room_width * 1.3, room_height * 1.3); // change later

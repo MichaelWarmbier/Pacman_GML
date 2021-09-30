@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "display",
+    "path": "folders/Sprites/display.yy",
   },
   "resourceVersion": "1.0",
   "name": "extraLifeSprite",

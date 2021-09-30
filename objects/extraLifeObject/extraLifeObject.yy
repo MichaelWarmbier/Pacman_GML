@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "display",
+    "path": "folders/Objects/display.yy",
   },
   "resourceVersion": "1.0",
   "name": "extraLifeObject",

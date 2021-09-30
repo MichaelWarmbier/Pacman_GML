@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "placeholder",
+    "path": "folders/Sprites/placeholder.yy",
   },
   "resourceVersion": "1.0",
   "name": "emptySprite32x32",
