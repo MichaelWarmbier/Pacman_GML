@@ -31,7 +31,7 @@ if (keyboard_check(ord("D")) || keyboard_check(vk_right)) { // right
 if (active)
 	switch (face) {
 		case dir.UP:
-			if (!checkCollision(tilemap, bbox_left, bbox_top - 1) && !checkCollision(tilemap, bbox_right, bbox_top - 1)  && bbox_left >= 0 && bbox_right <= room_width)
+			if (!checkCollision(tilemap, bbox_left, bbox_top - 1) && !checkCollision(tilemap, bbox_right, bbox_top - 1) && bbox_left >= 0 && bbox_right <= room_width)
 			y -= spd; 
 		break;
 		case dir.DOWN: 

@@ -17,8 +17,8 @@ global.currentLevel = 1;
 
 // debug
 
-global.debug = 1;
+global.debug = 0;
 global.debug_b = 0;
-global.debug_i = 1;
+global.debug_i = 0;
 global.debug_p = 0;
 global.debug_c = 0;

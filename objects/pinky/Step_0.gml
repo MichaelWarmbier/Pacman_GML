@@ -14,3 +14,5 @@ switch (pacman.face) {
 	target = [(pacman.x + 16) + (16 * 4), (pacman.y + 16)];
 	break;
 }
+
+ghostAdvance(target, pinky);

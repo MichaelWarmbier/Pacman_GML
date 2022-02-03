@@ -19,3 +19,5 @@ if (instance_exists(blinky)) {
 	target[0] = blinky.x + (median_tile[0] - blinky.x) * 2;
 	target[1] = blinky.y + (median_tile[1] - blinky.y) * 2;
 }
+
+ghostAdvance(target, inky);
