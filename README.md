@@ -6,8 +6,6 @@ Pacman programmed and designed from scratch in Game Maker using the Game Maker L
 
 This project is a continuation of a former project of mine, "Console Pacman". A recreation of the original game by Bandai Namco Entertainment that anyone can look at and mess around with themselves.
 
-## Gallery
+## Installation
 
-### 7/31/21
-
-![image](gallery/unknown.png)
+Installation isn't possible at this time, however, the project can be downloaded and run using Game Maker 2.
