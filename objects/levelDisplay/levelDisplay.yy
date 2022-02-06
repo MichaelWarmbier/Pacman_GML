@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "level_display_s",
-    "path": "sprites/level_display_s/level_display_s.yy",
+    "name": "levelDisplay_s",
+    "path": "sprites/levelDisplay_s/levelDisplay_s.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/display.yy",
   },
   "resourceVersion": "1.0",
-  "name": "level_display",
+  "name": "levelDisplay",
   "tags": [],
   "resourceType": "GMObject",
 }

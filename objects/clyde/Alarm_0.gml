@@ -1,4 +1,4 @@
-if (idle) {
+if (idle && !global.paused && !global.inGameCutscene && global.gameStart) {
 	if (idleStance && y >= 270) {
 		y -= 1;
 	}

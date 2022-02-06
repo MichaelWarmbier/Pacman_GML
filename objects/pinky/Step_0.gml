@@ -1,3 +1,6 @@
+if (place_meeting(x, y, slowdown)) { spd = 1.5; }
+else spd = pacman.spd;
+
 switch (pacman.face) {
 	case dir.UP:
 	target = [(pacman.x + 16) - (16 * 4), (pacman.y + 16) - (16 * 4)];
@@ -15,4 +18,5 @@ switch (pacman.face) {
 	break;
 }
 
-ghostAdvance(target, pinky);
+if (global.inGameCutscene) image_speed = 0;
+else if (global.gameStart) ghostAdvance(target, pinky);

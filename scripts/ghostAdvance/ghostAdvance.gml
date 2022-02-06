@@ -5,7 +5,9 @@ function ghostAdvance(target, ghost) {
 	centerPoints = [ghost.x + (ghost.sprite_width / 2), ghost.y + (ghost.sprite_height / 2)];
 	distances = [0,0,0,0]; // top right bottom left
 	
-	if (!ghost.idle) {
+	if (global.paused) ghost.visible = false;
+	else if (!ghost.idle) {
+		ghost.visible = true;
 		
 		if (!checkCollision(tilemap, ghost.bbox_left, ghost.bbox_top - 1) && !checkCollision(tilemap, ghost.bbox_right, ghost.bbox_top - 1)) // up
 			directions[0] = true;
@@ -57,4 +59,5 @@ function ghostAdvance(target, ghost) {
 			case dir.LEFT: if (directions[3]) ghost.x -= ghost.spd; break;
 		}
 	}
+	else ghost.visible = true;
 }
