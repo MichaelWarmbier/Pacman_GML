@@ -11,6 +11,7 @@ global.paused = false;
 global.gameStart = false;
 global.gameOver = false;
 global.inGameCutscene = false;
+global.currentEatSound = 0;
 forcePaused = false;
 flashCounter = 0;
 
@@ -22,10 +23,10 @@ global.debug_i = 0;
 global.debug_p = 0;
 global.debug_c = 0;
 global.invincible = 0;
-global.pToEnd = 0;
+global.pToEnd = 1;
 
 ////////////////////
 
-alarm[0] = room_speed * 3;
+alarm[0] = room_speed * 4.75;
 if (global.playerLives < 0) global.playerLives = 0;
 if (global.playerLives > 4) global.playerLives = 4;

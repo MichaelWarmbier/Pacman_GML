@@ -4,6 +4,7 @@ if ((!(instance_exists(smallPellet) || instance_exists(largePellet)) || (keyboar
 	global.inGameCutscene = true;
 	alarm[2] = room_speed * 2;
 	pacman.image_speed = 0;
+	audio_stop_sound(siren_1);
 }
 
 /* Check if game has been paused */
@@ -18,6 +19,7 @@ else if (!global.inGameCutscene)
 	
 /* Setup GameOver */
 if (global.playerLives <= 0 && !global.gameOver) {
+	audio_stop_sound(siren_1);
 	global.gameOver = true;
 	alarm[0] = -1;
 	gameOverDisplay.visible = true;

@@ -8,3 +8,4 @@ if (!global.invincible) {
 	 if (image_index > image_number - 1) 
 		visible = false;
 }
+audio_stop_sound(siren_1);
