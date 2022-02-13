@@ -19,7 +19,7 @@ global.tilemap = layer_tilemap_get_id("collisionTiles");
 /* Debug Options */
 
 global.debug = 0;
-global.debug_pos = 0;
+global.debug_pos = 1;
 global.debug_b = 0;
 global.debug_i = 0;
 global.debug_p = 0;

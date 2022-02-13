@@ -8,11 +8,11 @@ if ((!(instance_exists(smallPellet) || instance_exists(largePellet)) || (keyboar
 }
 
 /* Check if game has been paused */
-if (keyboard_check_pressed(vk_enter) && !global.inGameCutscene) {
+if (keyboard_check_pressed(vk_enter) && !global.inGameCutscene && global.gameStart) {
 	global.paused = !global.paused;
 	forcePaused = !forcePaused;
 }
-if (window_has_focus() && !forcePaused)
+if (window_has_focus() && !forcePaused && global.gameStart)
 	global.paused = false;
 else if (!global.inGameCutscene)
 	global.paused = true;
