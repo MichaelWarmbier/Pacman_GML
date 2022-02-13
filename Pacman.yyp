@@ -44,6 +44,7 @@
     {"id":{"name":"smallPellet","path":"objects/smallPellet/smallPellet.yy",},"order":0,},
     {"id":{"name":"emptySprite32x32","path":"sprites/emptySprite32x32/emptySprite32x32.yy",},"order":4,},
     {"id":{"name":"collisionSprite","path":"sprites/collisionSprite/collisionSprite.yy",},"order":1,},
+    {"id":{"name":"ghostIdle","path":"scripts/ghostIdle/ghostIdle.yy",},"order":4,},
     {"id":{"name":"teleporter","path":"objects/teleporter/teleporter.yy",},"order":0,},
     {"id":{"name":"To Do","path":"notes/To Do/To Do.yy",},"order":0,},
     {"id":{"name":"upwards_block_s","path":"sprites/upwards_block_s/upwards_block_s.yy",},"order":3,},

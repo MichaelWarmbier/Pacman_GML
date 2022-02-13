@@ -1,5 +1,4 @@
-function ghostAdvance(target, ghost) {
-	tilemap = layer_tilemap_get_id("collisionTiles");
+function ghostAdvance(target, ghost) {;
 	directions = [false, false, false, false]; // top right bottom left
 	switchDir = false;
 	centerPoints = [ghost.x + (ghost.sprite_width / 2), ghost.y + (ghost.sprite_height / 2)];
@@ -9,13 +8,13 @@ function ghostAdvance(target, ghost) {
 	else if (!ghost.idle) {
 		ghost.visible = true;
 		
-		if (!checkCollision(tilemap, ghost.bbox_left, ghost.bbox_top - 1) && !checkCollision(tilemap, ghost.bbox_right, ghost.bbox_top - 1)) // up
+		if (!checkCollision(global.tilemap, ghost.bbox_left, ghost.bbox_top - 1) && !checkCollision(global.tilemap, ghost.bbox_right, ghost.bbox_top - 1)) // up
 			directions[0] = true;
-		if (!checkCollision(tilemap, ghost.bbox_right + 1, ghost.bbox_top) && !checkCollision(tilemap, ghost.bbox_right + 1, ghost.bbox_bottom)) // right
+		if (!checkCollision(global.tilemap, ghost.bbox_right + 1, ghost.bbox_top) && !checkCollision(global.tilemap, ghost.bbox_right + 1, ghost.bbox_bottom)) // right
 			directions[1] = true;
-		if (!checkCollision(tilemap, ghost.bbox_left, ghost.bbox_bottom + 1) && !checkCollision(tilemap, ghost.bbox_right, ghost.bbox_bottom + 1)) // down
+		if (!checkCollision(global.tilemap, ghost.bbox_left, ghost.bbox_bottom + 1) && !checkCollision(global.tilemap, ghost.bbox_right, ghost.bbox_bottom + 1)) // down
 			directions[2] = true;	
-		if (!checkCollision(tilemap, ghost.bbox_left - 1, ghost.bbox_top) && !checkCollision(tilemap, ghost.bbox_left - 1, ghost.bbox_bottom)) // right
+		if (!checkCollision(global.tilemap, ghost.bbox_left - 1, ghost.bbox_top) && !checkCollision(global.tilemap, ghost.bbox_left - 1, ghost.bbox_bottom)) // right
 			directions[3] = true;
 	
 		if ((ghost.face == dir.UP && (directions[3] || directions[1])) ||

@@ -14,16 +14,18 @@ global.inGameCutscene = false;
 global.currentEatSound = 0;
 forcePaused = false;
 flashCounter = 0;
+global.tilemap = layer_tilemap_get_id("collisionTiles");
 
 /* Debug Options */
 
 global.debug = 0;
+global.debug_pos = 0;
 global.debug_b = 0;
 global.debug_i = 0;
 global.debug_p = 0;
 global.debug_c = 0;
 global.invincible = 0;
-global.pToEnd = 1;
+global.pToEnd = 0;
 
 ////////////////////
 
