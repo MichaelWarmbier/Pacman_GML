@@ -1,7 +1,29 @@
 # Pacman in Game Maker
 
-Pacman programmed and designed in Game Maker using the Game Maker Language. It's available to anyone who's interested in seeing a game they're familiar in GameMaker, in order to understand how the application can work.
+Pacman reprogrammed using Game Maker and the Game Maker Language. Designed to demostrate and simualate the behavior of collision and AI.
+
+## Gallery of Simulation
+
+### Blinky - Target Pacman directly.
+
+![image](https://i.imgur.com/WnLddGl.gif)
+
+### Pinky - Target in front of Pacman, offset to the left when looking up.
+
+![image](https://i.imgur.com/UacF40F.gif)
+
+### Inky - Target a reflection of Blinky's position about an axis in front of Pacman. Offset to the left when looking up.
+
+![image](https://i.imgur.com/STHWRJt.gif)
+
+### Clyde - Target Pacmam. When too close, target the bottom left corner.
+
+![image](https://i.imgur.com/WKnCtOi.gif)
+
+### All 
+
+![image](https://i.imgur.com/yJ3UDXI.gif)
 
 ## Installation
 
-Installation isn't possible at this time, however, the project can be downloaded and run using Game Maker 2.
+This project can be downloaded directly from the repository or via the release, then run in the Game Maker 2 application. 
