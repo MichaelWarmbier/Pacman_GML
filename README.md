@@ -2,6 +2,8 @@
 
 Pacman reprogrammed using Game Maker and the Game Maker Language. Designed to demostrate and simualate the behavior of collision and AI.
 
+**Soon**: Will be revamped into a documentation for the game.
+
 ## Gallery of Simulation
 
 ### Blinky - Target Pacman directly.
