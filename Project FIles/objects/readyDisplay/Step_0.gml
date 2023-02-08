@@ -1,0 +1,1 @@
+if (global.gameStart) visible = false;

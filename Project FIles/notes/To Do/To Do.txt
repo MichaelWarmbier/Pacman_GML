@@ -1,0 +1,29 @@
+-- General -- !
+
+* rewrite code to rely on global variables to aid in scaling and adjustments in the future
+* main menu with some scaling and audio options?
+
+
+-- Music & Sound --
+
+* Add Music
+* Add Sound
+
+
+-- GUI --
+
+* update extra lives display based on level display
+* Program START! display
+
+
+-- Levels --
+
+* Program Level Properties
+* Program Level End Parameters
+* Program Level Transition
+* creation code??
+
+
+-- Ghosts --
+
+* program ghost movement (including upwards block)

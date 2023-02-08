@@ -1,0 +1,1 @@
+instance_destroy(instance_place(x, y, largePellet));
